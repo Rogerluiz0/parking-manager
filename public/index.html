@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icon.svg">
+    <meta name="description" content="Gerenciador de Estacionamento">
+    <meta name="generator" content="Sublime Text 3">
+    <meta name="author" content="Roger Luiz">
+    <title>Estacionamento</title>
+
+    <link rel="stylesheet" href="style.css">  
+    <script src="main.js" type="text/javascript"></script>
+
+  </head>
+  <body>
+
+    <main class="container-main">
+      <section>
+        <input type="text" id="name" placeholder="Nome do veículo" autocomplete="off">
+        <input type="text" id="licence" placeholder="Placa do veículo" autocomplete="off">
+        <button id="send" class="success">Registrar</button>
+      </section>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Veículo</th>
+            <th>Placa</th>
+            <th>Entrada</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody id="garage"></tbody>
+      </table> 
+    </main>
+
+  </body>
+</html>

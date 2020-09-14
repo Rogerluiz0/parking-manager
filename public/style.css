@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+  width: 13px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: rgb(32, 32, 36);
+  border-radius: 0.2rem;
+}
+
+body {
+  background-color: rgb(18, 18, 20);
+}
+
+.container-main {
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+div, section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(32, 32, 36);
+  padding: 0.7rem;
+}
+
+input, button {
+  width: 98%;
+  padding: 0.6rem 0.4rem;
+  margin: 0.4rem;
+  background-color: rgb(32, 32, 36);
+  color: #AAA;
+  border: none;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.success {
+  background-color: #4169E1;
+  color: rgb(255, 255, 255);
+}
+
+.delete {
+  background-color: rgb(231, 54, 54);
+  color: rgb(255, 255, 255);
+}
+
+
+table {
+  background-color: rgb(32, 32, 36);
+  margin-top: 2%;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 5px 25px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #AAA;
+}
