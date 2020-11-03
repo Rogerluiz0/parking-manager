@@ -49,7 +49,7 @@ projeto
 
 ## :arrow_down: Instalação
 
-- `git clone https://github.com/Rogerluiz0/parking-manager.git`;
+- `git clone https://github.com/roger3g/parking-manager.git`;
 - `cd parking-manager`;
 - `npm install`;
 - `npm start`.
